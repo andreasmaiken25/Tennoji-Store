@@ -21,16 +21,13 @@ body {
   font-size: 20px;
 }
 
-.border {
-  border-radius: 10px;
-}
-
 .enter {
   padding: 2rem;
 }
 
+/* Carousel */
 .enter1 {
-  padding-top: 5rem;
+  padding-top: 55px;
 }
 
 /* Category */
@@ -46,7 +43,7 @@ body {
 }
 
 .grid {
-  margin-left: 55px;
+  margin-left: 45px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
@@ -56,7 +53,7 @@ body {
 /* Responsive Grid | Dekstop */
 @media (min-width: 992px) {
   .grid {
-    margin-left: 75px;
+    margin-left: 70px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
@@ -360,12 +357,15 @@ footer .wave#wave4 {
 
 /* About */
 .jarak-about {
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 .about {
   text-align: center;
   margin-left: 5px;
   margin: auto;
+  width: 350px;
+  height: 180px;
+  padding: 5px;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap");
@@ -392,6 +392,14 @@ footer .wave#wave4 {
 
 /* Responsive Persegi | Dekstop */
 @media (min-width: 992px) {
+  .about {
+    text-align: center;
+    margin-left: 5px;
+    margin: auto;
+    width: 850px;
+    height: 140px;
+  }
+
   .about h2 {
     padding-bottom: 5px;
     font-family: "Nunito Sans", sans-serif;
